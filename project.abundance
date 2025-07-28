@@ -182,7 +182,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "072977df-2092-4273-b17b-006230524b86"
+                    "ioValue": "8f34fa34-755c-4e1a-affa-5d142ee0f31f"
                 },
                 {
                     "name": "Sheet Width",
@@ -464,7 +464,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "74b86142-f40e-4ad8-a6b9-5b8528e3cb0d",
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "cce8b22f-8e0e-42ac-bbc2-703a69a8d12d"
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -532,7 +537,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "946109de-bc97-45c5-a654-07316c23a78a",
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "2aebb769-cc9e-48bf-b95f-a3fe033bca75"
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -1213,7 +1223,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "176d9d1b-ba74-4432-87c9-b11a41a4bed8",
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "55a2e87c-99ee-4752-bd55-901298406278"
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
