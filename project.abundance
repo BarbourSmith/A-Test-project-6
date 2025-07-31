@@ -1162,8 +1162,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.7967741935483871,
-            "y": 0.7472222222222221,
+            "x": 0.7996031746031745,
+            "y": 0.7437325905292479,
             "uniqueID": "27c29402-254b-433d-b3e4-31d5a6a2640b",
             "ioValues": [
                 {
@@ -1409,6 +1409,36 @@
             "unitsKey": "Inches",
             "fileTypeVersion": 1,
             "compiledBom": []
+        },
+        {
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.9067460317460317,
+            "y": 0.7715877437325905,
+            "uniqueID": "1c916e07-92bd-4b7b-bace-8d03f246816e",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51"
+                },
+                {
+                    "name": "Resolution (dpi)",
+                    "ioValue": 96
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "A-Test-project-6"
+                },
+                {
+                    "name": "File Type",
+                    "ioValue": "STL"
+                }
+            ],
+            "description": "Export Atom, let's you choose a type of file to Export.",
+            "type": "STL",
+            "resolution": 96,
+            "importIndex": 0,
+            "partName": "A-Test-project-6"
         }
     ],
     "allConnectors": [
@@ -1516,6 +1546,13 @@
             "ap2Primary": false,
             "ap1ID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
             "ap2ID": "27c29402-254b-433d-b3e4-31d5a6a2640b"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
+            "ap2ID": "1c916e07-92bd-4b7b-bace-8d03f246816e"
         },
         {
             "ap1Name": "Geometry",
