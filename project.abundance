@@ -452,7 +452,7 @@
             "ioValues": [
                 {
                     "name": "Geometry",
-                    "ioValue": "NaNb0ff9-791f-49f3-a41c-bf36fd6eb5b2"
+                    "ioValue": "c15b0ff9-791f-49f3-a41c-bf36fd6eb5b2"
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -491,7 +491,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "NaNb0ff9-791f-49f3-a41c-bf36fd6eb5b2"
+                            "ioValue": "c15b0ff9-791f-49f3-a41c-bf36fd6eb5b2"
                         },
                         {
                             "name": "x-axis degrees",
@@ -1457,7 +1457,7 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.8486096807415037,
+            "x": 0.861111111111111,
             "y": 0.43732590529247906,
             "uniqueID": "ed1260cf-5b74-4fcf-9026-de50e68e159c",
             "ioValues": [
@@ -1471,7 +1471,7 @@
                 },
                 {
                     "name": "Passes",
-                    "ioValue": 6
+                    "ioValue": 2
                 },
                 {
                     "name": "Speed",
@@ -1479,7 +1479,7 @@
                 },
                 {
                     "name": "Cut Through",
-                    "ioValue": 1
+                    "ioValue": 20
                 },
                 {
                     "name": "Part Name",
