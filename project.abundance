@@ -14,7 +14,12 @@
             "x": 0.9682539682539683,
             "y": 0.5069637883008357,
             "uniqueID": 1746568598187,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "d1357fc1-b80c-40bb-b9f8-264bb8b98b2b"
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -1487,8 +1492,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.8756613756613756,
-            "y": 0.796657381615599,
+            "x": 0.8614357262103506,
+            "y": 0.7381615598885795,
             "uniqueID": "d1357fc1-b80c-40bb-b9f8-264bb8b98b2b",
             "ioValues": [
                 {
