@@ -1527,6 +1527,20 @@
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.7433862433862434,
+            "y": 0.8022284122562675,
+            "uniqueID": "dfbc6f32-0011-4f5a-a7d9-71f30d212420",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Creates a new circle."
         }
     ],
     "allConnectors": [
