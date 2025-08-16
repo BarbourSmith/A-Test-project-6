@@ -14,12 +14,7 @@
             "x": 0.9682539682539683,
             "y": 0.5069637883008357,
             "uniqueID": 1746568598187,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": "d1357fc1-b80c-40bb-b9f8-264bb8b98b2b"
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -1110,7 +1105,7 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": -14
+                    "ioValue": 14
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -1118,8 +1113,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.5575396825396826,
-            "y": 0.21448467966573817,
+            "x": 0.5535714285714286,
+            "y": 0.22284122562674097,
             "uniqueID": "c07e89b2-5597-4189-99ff-5c42aca3588d",
             "ioValues": [
                 {
@@ -1136,7 +1131,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 25
+                    "ioValue": 0
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -1144,8 +1139,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.5694444444444444,
-            "y": 0.5515320334261838,
+            "x": 0.5747354497354497,
+            "y": 0.5598885793871866,
             "uniqueID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
             "ioValues": [
                 {
@@ -1192,7 +1187,8 @@
                 }
             ],
             "description": "Generates Maslow gcode from the input geometry.",
-            "partName": "Basic Square Test"
+            "partName": "Basic Square Test",
+            "sortDirection": "Left"
         },
         {
             "atomType": "GitHubMolecule",
@@ -1439,8 +1435,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.6969949916527546,
-            "y": 0.467966573816156,
+            "x": 0.7096560846560847,
+            "y": 0.4596100278551532,
             "uniqueID": "37394ec5-19e3-4302-ac65-5f4a746a47e6",
             "ioValues": [
                 {
@@ -1487,7 +1483,8 @@
                 }
             ],
             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them left to right based on bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-            "partName": "A-Test-project-6"
+            "partName": "A-Test-project-6",
+            "sortDirection": "Left"
         },
         {
             "atomType": "Assembly",
@@ -1546,6 +1543,36 @@
                 }
             ],
             "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.5753968253968255,
+            "y": 0.8746518105849581,
+            "uniqueID": "703bbf02-3848-437f-b9ad-fa912d30582a",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51"
+                },
+                {
+                    "name": "Resolution (dpi)",
+                    "ioValue": 96
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "A-Test-project-6"
+                },
+                {
+                    "name": "File Type",
+                    "ioValue": "STL"
+                }
+            ],
+            "description": "Export Atom, let's you choose a type of file to Export.",
+            "type": "STL",
+            "resolution": 96,
+            "importIndex": 0,
+            "partName": "A-Test-project-6"
         }
     ],
     "allConnectors": [
@@ -1660,6 +1687,13 @@
             "ap2Primary": false,
             "ap1ID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
             "ap2ID": "37394ec5-19e3-4302-ac65-5f4a746a47e6"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
+            "ap2ID": "703bbf02-3848-437f-b9ad-fa912d30582a"
         },
         {
             "ap1Name": "Geometry",
