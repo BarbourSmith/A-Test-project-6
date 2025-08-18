@@ -1059,8 +1059,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.3941798941798942,
-            "y": 0.8857938718662952,
+            "x": 0.2996031746031746,
+            "y": 0.8551532033426184,
             "uniqueID": "bab8a965-1776-47e9-bb8b-6428dbd4d662",
             "ioValues": [
                 {
@@ -1077,8 +1077,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5,
-            "y": 0.796657381615599,
+            "x": 0.38095238095238093,
+            "y": 0.8217270194986073,
             "uniqueID": "a49d04fd-a332-4ca1-a935-e8420dc58731",
             "ioValues": [
                 {
@@ -1573,6 +1573,72 @@
             "resolution": 96,
             "importIndex": 0,
             "partName": "A-Test-project-6"
+        },
+        {
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.4642857142857143,
+            "y": 0.8607242339832869,
+            "uniqueID": "80b4ce1a-6ad0-45ce-998c-c9457f52e1c1",
+            "ioValues": [
+                {
+                    "name": "Geometry",
+                    "ioValue": "a49d04fd-a332-4ca1-a935-e8420dc58731"
+                },
+                {
+                    "name": "Tool Size",
+                    "ioValue": 6.35
+                },
+                {
+                    "name": "Passes",
+                    "ioValue": 1
+                },
+                {
+                    "name": "Speed",
+                    "ioValue": 1500
+                },
+                {
+                    "name": "Cut Through",
+                    "ioValue": 1.5
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "A-Test-project-6"
+                }
+            ],
+            "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
+            "partName": "A-Test-project-6",
+            "sortDirection": "Left"
+        },
+        {
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.48082010582010587,
+            "y": 0.6267409470752089,
+            "uniqueID": "1e1df2b2-f686-43f5-8d41-ad07e3a1b466",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "a49d04fd-a332-4ca1-a935-e8420dc58731"
+                },
+                {
+                    "name": "Resolution (dpi)",
+                    "ioValue": 96
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "Test"
+                },
+                {
+                    "name": "File Type",
+                    "ioValue": "STL"
+                }
+            ],
+            "description": "Export Atom, let's you choose a type of file to Export.",
+            "type": "STL",
+            "resolution": 96,
+            "importIndex": 0,
+            "partName": "Test"
         }
     ],
     "allConnectors": [
@@ -1652,6 +1718,20 @@
             "ap2Primary": false,
             "ap1ID": "a49d04fd-a332-4ca1-a935-e8420dc58731",
             "ap2ID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Geometry",
+            "ap2Primary": false,
+            "ap1ID": "a49d04fd-a332-4ca1-a935-e8420dc58731",
+            "ap2ID": "80b4ce1a-6ad0-45ce-998c-c9457f52e1c1"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": "a49d04fd-a332-4ca1-a935-e8420dc58731",
+            "ap2ID": "1e1df2b2-f686-43f5-8d41-ad07e3a1b466"
         },
         {
             "ap1Name": "geometry",
