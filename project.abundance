@@ -579,8 +579,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.6468253968253969,
-            "y": 0.7548746518105849,
+            "x": 0.6441798941798942,
+            "y": 0.7938718662952646,
             "uniqueID": "27c29402-254b-433d-b3e4-31d5a6a2640b",
             "ioValues": [
                 {
@@ -591,12 +591,12 @@
                 {
                     "name": "Tool Size",
                     "ioValue": 0.25,
-                    "currentEquation": null
+                    "currentEquation": ".25"
                 },
                 {
                     "name": "Passes",
-                    "ioValue": 3,
-                    "currentEquation": null
+                    "ioValue": 2,
+                    "currentEquation": "2"
                 },
                 {
                     "name": "Speed",
@@ -1849,7 +1849,7 @@
             "ap2ID": "38a0fc25-61d5-4003-9b64-3388836bb20e"
         }
     ],
-    "unitsKey": "MM",
+    "unitsKey": "Inches",
     "fileTypeVersion": 1,
     "compiledBom": [],
     "filetypeVersion": 1
