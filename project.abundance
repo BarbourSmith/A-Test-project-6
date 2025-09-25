@@ -5,7 +5,6 @@
     "y": 0,
     "uniqueID": 1746568589948,
     "ioValues": [],
-    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
     "allAtoms": [
         {
@@ -14,14 +13,7 @@
             "x": 0.9682539682539683,
             "y": 0.5069637883008357,
             "uniqueID": 1746568598187,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
-                    "currentEquation": null
-                }
-            ],
-            "description": "Connect geometry here to make it available in the next level up. "
+            "ioValues": []
         },
         {
             "atomType": "Rectangle",
@@ -40,8 +32,7 @@
                     "ioValue": 30,
                     "currentEquation": null
                 }
-            ],
-            "description": "Creates a new rectangle."
+            ]
         },
         {
             "atomType": "Extrude",
@@ -51,17 +42,11 @@
             "uniqueID": "c15b0ff9-791f-49f3-a41c-bf36fd6eb5b2",
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": "b9c2969f-e898-4bf2-8d18-aa17dc8b4624",
-                    "currentEquation": null
-                },
-                {
                     "name": "height",
                     "ioValue": 10,
                     "currentEquation": null
                 }
-            ],
-            "description": "Extrudes a 2D shape. Input can be negitive. "
+            ]
         },
         {
             "atomType": "Move",
@@ -70,11 +55,6 @@
             "y": 0.18333333333333335,
             "uniqueID": "2b23e32e-3e46-4888-b7a6-f40467c2499b",
             "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "c15b0ff9-791f-49f3-a41c-bf36fd6eb5b2",
-                    "currentEquation": null
-                },
                 {
                     "name": "xDist",
                     "ioValue": 0,
@@ -90,8 +70,7 @@
                     "ioValue": 0,
                     "currentEquation": null
                 }
-            ],
-            "description": "Moves a shape laterally in X, Y, Z."
+            ]
         },
         {
             "atomType": "Rotate",
@@ -100,11 +79,6 @@
             "y": 0.6388888888888888,
             "uniqueID": "7bc883ef-f591-4184-b5d4-3694ad010796",
             "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "0b0af4d7-9261-4074-ba27-2b43324772f5",
-                    "currentEquation": null
-                },
                 {
                     "name": "x-axis degrees",
                     "ioValue": 0,
@@ -120,8 +94,7 @@
                     "ioValue": 90,
                     "currentEquation": null
                 }
-            ],
-            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+            ]
         },
         {
             "atomType": "Move",
@@ -130,11 +103,6 @@
             "y": 0.7805555555555554,
             "uniqueID": "cc93b5a4-2cba-4c75-96e1-8fb2114bc22d",
             "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "7bc883ef-f591-4184-b5d4-3694ad010796",
-                    "currentEquation": null
-                },
                 {
                     "name": "xDist",
                     "ioValue": 12.5,
@@ -150,8 +118,7 @@
                     "ioValue": 0,
                     "currentEquation": null
                 }
-            ],
-            "description": "Moves a shape laterally in X, Y, Z."
+            ]
         },
         {
             "atomType": "Fusion",
@@ -162,14 +129,13 @@
             "ioValues": [
                 {
                     "name": "Shape 1",
-                    "ioValue": "cc93b5a4-2cba-4c75-96e1-8fb2114bc22d"
+                    "ioValue": null
                 },
                 {
                     "name": "Shape 2",
-                    "ioValue": "0b0af4d7-9261-4074-ba27-2b43324772f5"
+                    "ioValue": null
                 }
             ],
-            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
             "unionType": "Fusion"
         },
         {
@@ -189,8 +155,7 @@
                     "ioValue": 50,
                     "currentEquation": null
                 }
-            ],
-            "description": "Creates a new rectangle."
+            ]
         },
         {
             "atomType": "CutLayout",
@@ -199,11 +164,6 @@
             "y": 0.5766016713091923,
             "uniqueID": "38a0fc25-61d5-4003-9b64-3388836bb20e",
             "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "8f34fa34-755c-4e1a-affa-5d142ee0f31f",
-                    "currentEquation": null
-                },
                 {
                     "name": "Sheet Width",
                     "ioValue": 500,
@@ -220,7 +180,6 @@
                     "currentEquation": null
                 }
             ],
-            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
             "placements": [
                 [
                     {
@@ -483,8 +442,7 @@
                     "ioValue": 75,
                     "currentEquation": null
                 }
-            ],
-            "description": "Creates a new rectangle."
+            ]
         },
         {
             "atomType": "Extrude",
@@ -494,17 +452,11 @@
             "uniqueID": "a49d04fd-a332-4ca1-a935-e8420dc58731",
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": "bab8a965-1776-47e9-bb8b-6428dbd4d662",
-                    "currentEquation": null
-                },
-                {
                     "name": "height",
                     "ioValue": 5,
                     "currentEquation": null
                 }
-            ],
-            "description": "Extrudes a 2D shape. Input can be negitive. "
+            ]
         },
         {
             "atomType": "Extrude",
@@ -514,17 +466,11 @@
             "uniqueID": "d0b60086-8cc1-47de-a1d5-b3d7072433a2",
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": "ff87dede-758f-4324-8993-0d2b8a3f1226",
-                    "currentEquation": null
-                },
-                {
                     "name": "height",
                     "ioValue": 14,
                     "currentEquation": null
                 }
-            ],
-            "description": "Extrudes a 2D shape. Input can be negitive. "
+            ]
         },
         {
             "atomType": "Move",
@@ -533,11 +479,6 @@
             "y": 0.22284122562674097,
             "uniqueID": "c07e89b2-5597-4189-99ff-5c42aca3588d",
             "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "d0b60086-8cc1-47de-a1d5-b3d7072433a2",
-                    "currentEquation": null
-                },
                 {
                     "name": "xDist",
                     "ioValue": 0,
@@ -553,8 +494,7 @@
                     "ioValue": 0,
                     "currentEquation": null
                 }
-            ],
-            "description": "Moves a shape laterally in X, Y, Z."
+            ]
         },
         {
             "atomType": "Difference",
@@ -562,19 +502,7 @@
             "x": 0.5747354497354497,
             "y": 0.5598885793871866,
             "uniqueID": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
-            "ioValues": [
-                {
-                    "name": "geometry1",
-                    "ioValue": "a49d04fd-a332-4ca1-a935-e8420dc58731",
-                    "currentEquation": null
-                },
-                {
-                    "name": "geometry2",
-                    "ioValue": "c07e89b2-5597-4189-99ff-5c42aca3588d",
-                    "currentEquation": null
-                }
-            ],
-            "description": "Subtracts shape two from shape one."
+            "ioValues": []
         },
         {
             "atomType": "Gcode",
@@ -584,19 +512,14 @@
             "uniqueID": "27c29402-254b-433d-b3e4-31d5a6a2640b",
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
-                    "currentEquation": null
-                },
-                {
                     "name": "Tool Size",
                     "ioValue": 0.25,
-                    "currentEquation": ".25"
+                    "currentEquation": null
                 },
                 {
                     "name": "Passes",
                     "ioValue": 2,
-                    "currentEquation": "2"
+                    "currentEquation": null
                 },
                 {
                     "name": "Speed",
@@ -614,7 +537,6 @@
                     "currentEquation": null
                 }
             ],
-            "description": "Generates Maslow gcode from the input geometry.",
             "partName": "Basic Square Test",
             "sortDirection": "Left"
         },
@@ -625,11 +547,6 @@
             "y": 0.19220055710306408,
             "uniqueID": "ad93079d-e6df-4844-a542-19edf6aa46ed",
             "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
-                    "currentEquation": null
-                },
                 {
                     "name": "xDist",
                     "ioValue": 100,
@@ -645,8 +562,7 @@
                     "ioValue": 0,
                     "currentEquation": null
                 }
-            ],
-            "description": "Moves a shape laterally in X, Y, Z."
+            ]
         },
         {
             "atomType": "Assembly",
@@ -657,14 +573,13 @@
             "ioValues": [
                 {
                     "name": "Shape 1",
-                    "ioValue": "ad93079d-e6df-4844-a542-19edf6aa46ed"
+                    "ioValue": null
                 },
                 {
                     "name": "Shape 2",
-                    "ioValue": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51"
+                    "ioValue": null
                 }
-            ],
-            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+            ]
         },
         {
             "atomType": "Gcode",
@@ -699,7 +614,6 @@
                     "currentEquation": null
                 }
             ],
-            "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them left to right based on bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
             "partName": "A-Test-project-6",
             "sortDirection": "Left"
         },
@@ -712,14 +626,13 @@
             "ioValues": [
                 {
                     "name": "Shape 2",
-                    "ioValue": "37394ec5-19e3-4302-ac65-5f4a746a47e6"
+                    "ioValue": null
                 },
                 {
                     "name": "Shape 3",
                     "ioValue": null
                 }
-            ],
-            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+            ]
         },
         {
             "atomType": "Move",
@@ -743,8 +656,7 @@
                     "ioValue": 25,
                     "currentEquation": null
                 }
-            ],
-            "description": "Moves a shape laterally in X, Y, Z."
+            ]
         },
         {
             "atomType": "Circle",
@@ -758,8 +670,7 @@
                     "ioValue": 10,
                     "currentEquation": null
                 }
-            ],
-            "description": "Creates a new circle."
+            ]
         },
         {
             "atomType": "Export",
@@ -768,11 +679,6 @@
             "y": 0.8635097493036212,
             "uniqueID": "703bbf02-3848-437f-b9ad-fa912d30582a",
             "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "52c9e1f5-7ff7-4eef-94b1-e99d0cc79a51",
-                    "currentEquation": null
-                },
                 {
                     "name": "File Type",
                     "ioValue": "STL",
@@ -789,7 +695,6 @@
                     "currentEquation": null
                 }
             ],
-            "description": "Export Atom, let's you choose a type of file to Export.",
             "type": "STL",
             "resolution": 96,
             "importIndex": 0,
@@ -802,11 +707,6 @@
             "y": 0.766016713091922,
             "uniqueID": "80b4ce1a-6ad0-45ce-998c-c9457f52e1c1",
             "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "a49d04fd-a332-4ca1-a935-e8420dc58731",
-                    "currentEquation": null
-                },
                 {
                     "name": "Tool Size",
                     "ioValue": 0.25,
@@ -833,7 +733,6 @@
                     "currentEquation": null
                 }
             ],
-            "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
             "partName": "A-Test-project-6",
             "sortDirection": "Left"
         },
@@ -844,11 +743,6 @@
             "y": 0.4874651810584958,
             "uniqueID": "1e1df2b2-f686-43f5-8d41-ad07e3a1b466",
             "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "a49d04fd-a332-4ca1-a935-e8420dc58731",
-                    "currentEquation": null
-                },
                 {
                     "name": "File Type",
                     "ioValue": "STL",
@@ -865,7 +759,6 @@
                     "currentEquation": null
                 }
             ],
-            "description": "Export Atom, let's you choose a type of file to Export.",
             "type": "STL",
             "resolution": 96,
             "importIndex": 0,
@@ -879,11 +772,6 @@
             "uniqueID": "8f34fa34-755c-4e1a-affa-5d142ee0f31f",
             "ioValues": [
                 {
-                    "name": "Shape",
-                    "ioValue": "2b23e32e-3e46-4888-b7a6-f40467c2499b",
-                    "currentEquation": null
-                },
-                {
                     "name": "Number",
                     "ioValue": 30,
                     "currentEquation": null
@@ -894,7 +782,6 @@
                     "currentEquation": null
                 }
             ],
-            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
             "topLevel": false,
             "allAtoms": [
                 {
@@ -903,14 +790,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "176d9d1b-ba74-4432-87c9-b11a41a4bed8",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "55a2e87c-99ee-4752-bd55-901298406278",
-                            "currentEquation": null
-                        }
-                    ],
-                    "description": "Connect geometry here to make it available in the next level up. "
+                    "ioValues": []
                 },
                 {
                     "atomType": "Input",
@@ -918,8 +798,7 @@
                     "x": 0.029699999999999997,
                     "y": 0.3788300835654596,
                     "uniqueID": "00aaacbd-76a1-4299-bb84-8a90ba77ca00",
-                    "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                    "ioValues": []
                 },
                 {
                     "atomType": "Input",
@@ -927,8 +806,7 @@
                     "x": 0.029699999999999997,
                     "y": 0.8440111420612814,
                     "uniqueID": "d556ab39-7168-473c-bcde-e7166be4c1be",
-                    "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                    "ioValues": []
                 },
                 {
                     "atomType": "Input",
@@ -936,8 +814,7 @@
                     "x": 0.029699999999999997,
                     "y": 0.5821727019498607,
                     "uniqueID": "0f57b0a4-4437-4272-80a9-43a8dfc57376",
-                    "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                    "ioValues": []
                 },
                 {
                     "atomType": "Circle",
@@ -951,8 +828,7 @@
                             "ioValue": 10,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Creates a new circle."
+                    ]
                 },
                 {
                     "atomType": "Move",
@@ -976,8 +852,7 @@
                             "ioValue": 0,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
+                    ]
                 },
                 {
                     "atomType": "Code",
@@ -985,24 +860,7 @@
                     "x": 0.5741525423728814,
                     "y": 0.6072423398328691,
                     "uniqueID": "55a2e87c-99ee-4752-bd55-901298406278",
-                    "ioValues": [
-                        {
-                            "name": "Shape",
-                            "ioValue": "2b23e32e-3e46-4888-b7a6-f40467c2499b",
-                            "currentEquation": null
-                        },
-                        {
-                            "name": "Number",
-                            "ioValue": 30,
-                            "currentEquation": null
-                        },
-                        {
-                            "name": "Angle",
-                            "ioValue": 10,
-                            "currentEquation": null
-                        }
-                    ],
-                    "description": "Defines a Replicad code block.",
+                    "ioValues": [],
                     "codeVersion": 1,
                     "code": "//Inputs:[Shape, Number, Angle];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Rotate(Shape, 0, 0, Angle * i);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
                 },
@@ -1018,8 +876,7 @@
                             "ioValue": 10,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negitive. "
+                    ]
                 }
             ],
             "allConnectors": [
@@ -1087,18 +944,69 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.7817460317460317,
+            "y": 0.8245125348189415,
+            "uniqueID": "d7d51b5f-e7b0-4427-9bdd-e81c80ec0408",
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": "0f87526f-8c42-48ec-a2fc-ea7e453ef81f",
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.531084656084656,
+            "y": 0.796657381615599,
+            "uniqueID": "0e02a969-0863-46a9-bd8d-9ff16febca22",
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": "791c821c-5e6c-4e28-a57a-58e4a0921c0b",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.4384920634920635,
+                    "y": 0.45403899721448465,
+                    "uniqueID": "287c5dc3-e957-4096-ae93-ea2ea8f11474",
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10,
+                            "currentEquation": null
+                        }
+                    ]
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": []
+        },
+        {
+            "atomType": "Molecule",
             "name": "Optimal Packing",
             "x": 0.27116402116402116,
             "y": 0.6183844011142061,
             "uniqueID": "baaed5ed-3495-4ca2-bfec-fd02da1864b0",
-            "ioValues": [
-                {
-                    "name": "Geometry",
-                    "ioValue": "c15b0ff9-791f-49f3-a41c-bf36fd6eb5b2",
-                    "currentEquation": null
-                }
-            ],
-            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "ioValues": [],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -1107,14 +1015,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "74b86142-f40e-4ad8-a6b9-5b8528e3cb0d",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "cce8b22f-8e0e-42ac-bbc2-703a69a8d12d",
-                            "currentEquation": null
-                        }
-                    ],
-                    "description": "Connect geometry here to make it available in the next level up. "
+                    "ioValues": []
                 },
                 {
                     "atomType": "Input",
@@ -1123,7 +1024,6 @@
                     "y": 0.35833333333333334,
                     "uniqueID": "bc50fdd7-d629-434c-8323-e00233e83cd1",
                     "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                     "type": "number"
                 },
                 {
@@ -1133,11 +1033,6 @@
                     "y": 0.3638888888888889,
                     "uniqueID": "bd805fb1-ab37-44e0-978f-4fe64fe73ba9",
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "c15b0ff9-791f-49f3-a41c-bf36fd6eb5b2",
-                            "currentEquation": null
-                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0,
@@ -1153,8 +1048,7 @@
                             "ioValue": 45,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                    ]
                 },
                 {
                     "atomType": "Fusion",
@@ -1165,18 +1059,17 @@
                     "ioValues": [
                         {
                             "name": "Shape 2",
-                            "ioValue": "82ca01c0-5457-4adc-a007-17d9f72afd4f"
+                            "ioValue": null
                         },
                         {
                             "name": "Shape 3",
-                            "ioValue": "b37d363e-09d3-459c-a375-0c8a23698c2f"
+                            "ioValue": null
                         },
                         {
                             "name": "Shape 4",
-                            "ioValue": "daa83208-6789-47a5-a3e5-442c4b9976c7"
+                            "ioValue": null
                         }
                     ],
-                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
                     "unionType": "Fusion"
                 },
                 {
@@ -1186,11 +1079,6 @@
                     "y": 0.35833333333333334,
                     "uniqueID": "82ca01c0-5457-4adc-a007-17d9f72afd4f",
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "8ec8a330-dd56-4d84-9f61-ca0d66e41d0d",
-                            "currentEquation": null
-                        },
                         {
                             "name": "xDist",
                             "ioValue": 15,
@@ -1206,8 +1094,7 @@
                             "ioValue": 0,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
+                    ]
                 },
                 {
                     "atomType": "Move",
@@ -1217,11 +1104,6 @@
                     "uniqueID": "b37d363e-09d3-459c-a375-0c8a23698c2f",
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": "82ca01c0-5457-4adc-a007-17d9f72afd4f",
-                            "currentEquation": null
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 0,
                             "currentEquation": null
@@ -1236,8 +1118,7 @@
                             "ioValue": 0,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
+                    ]
                 },
                 {
                     "atomType": "Move",
@@ -1247,11 +1128,6 @@
                     "uniqueID": "daa83208-6789-47a5-a3e5-442c4b9976c7",
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": "b37d363e-09d3-459c-a375-0c8a23698c2f",
-                            "currentEquation": null
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 0,
                             "currentEquation": null
@@ -1266,8 +1142,7 @@
                             "ioValue": 0,
                             "currentEquation": null
                         }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
+                    ]
                 },
                 {
                     "atomType": "GitHubMolecule",
@@ -1285,14 +1160,8 @@
                             "name": "Dist",
                             "ioValue": 14.5,
                             "currentEquation": null
-                        },
-                        {
-                            "name": "Geometry",
-                            "ioValue": "bd805fb1-ab37-44e0-978f-4fe64fe73ba9",
-                            "currentEquation": null
                         }
                     ],
-                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                     "topLevel": false,
                     "allAtoms": [
                         {
@@ -1301,14 +1170,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "946109de-bc97-45c5-a654-07316c23a78a",
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "2aebb769-cc9e-48bf-b95f-a3fe033bca75",
-                                    "currentEquation": null
-                                }
-                            ],
-                            "description": "Connect geometry here to make it available in the next level up. "
+                            "ioValues": []
                         },
                         {
                             "atomType": "Code",
@@ -1316,24 +1178,7 @@
                             "x": 0.5112433862433863,
                             "y": 0.4345403899721449,
                             "uniqueID": "2aebb769-cc9e-48bf-b95f-a3fe033bca75",
-                            "ioValues": [
-                                {
-                                    "name": "Shape",
-                                    "ioValue": "bd805fb1-ab37-44e0-978f-4fe64fe73ba9",
-                                    "currentEquation": null
-                                },
-                                {
-                                    "name": "Number",
-                                    "ioValue": 12,
-                                    "currentEquation": null
-                                },
-                                {
-                                    "name": "Dist",
-                                    "ioValue": 14.5,
-                                    "currentEquation": null
-                                }
-                            ],
-                            "description": "Defines a Replicad code block.",
+                            "ioValues": [],
                             "codeVersion": 1,
                             "code": "//Inputs:[Shape, Number, Dist];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Move(Shape, Dist * i, 0, 0);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
                         },
@@ -1354,8 +1199,7 @@
                                     "ioValue": 10,
                                     "currentEquation": null
                                 }
-                            ],
-                            "description": "Creates a new rectangle."
+                            ]
                         },
                         {
                             "atomType": "Input",
@@ -1364,7 +1208,6 @@
                             "y": 0.32869080779944293,
                             "uniqueID": "c4d3c46b-5f4c-44da-a08a-b4193f94293f",
                             "ioValues": [],
-                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                             "type": "number"
                         },
                         {
@@ -1374,7 +1217,6 @@
                             "y": 0.6434540389972144,
                             "uniqueID": "eb016a73-169b-45a3-9401-80e784d22d14",
                             "ioValues": [],
-                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                             "type": "number"
                         },
                         {
@@ -1384,7 +1226,6 @@
                             "y": 0.9108635097493036,
                             "uniqueID": "c26fe36a-9b68-4bbb-9247-5906b5369093",
                             "ioValues": [],
-                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                             "type": "number"
                         }
                     ],
@@ -1448,11 +1289,6 @@
                     "uniqueID": "05b40f60-efb2-46f7-889e-d50a5d8550ce",
                     "ioValues": [
                         {
-                            "name": "Number",
-                            "ioValue": "bd805fb1-ab37-44e0-978f-4fe64fe73ba9",
-                            "currentEquation": null
-                        },
-                        {
                             "name": "Geometry",
                             "ioValue": 10,
                             "currentEquation": null
@@ -1473,7 +1309,6 @@
                             "currentEquation": null
                         }
                     ],
-                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                     "topLevel": false,
                     "allAtoms": [
                         {
@@ -1482,8 +1317,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "28026b6b-bdc0-4512-857e-7f84e5a29c36",
-                            "ioValues": [],
-                            "description": "Connect geometry here to make it available in the next level up. "
+                            "ioValues": []
                         },
                         {
                             "atomType": "Rectangle",
@@ -1502,8 +1336,7 @@
                                     "ioValue": 10,
                                     "currentEquation": null
                                 }
-                            ],
-                            "description": "Creates a new rectangle."
+                            ]
                         },
                         {
                             "atomType": "Input",
@@ -1512,7 +1345,6 @@
                             "y": 0.32869080779944293,
                             "uniqueID": "aafb7217-3965-4122-93b9-b305e06a2110",
                             "ioValues": [],
-                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                             "type": "number"
                         },
                         {
@@ -1522,7 +1354,6 @@
                             "y": 0.9108635097493036,
                             "uniqueID": "f4cd6cd7-2dbb-4d4a-85cb-39dd979e9792",
                             "ioValues": [],
-                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                             "type": "number"
                         },
                         {
@@ -1532,7 +1363,6 @@
                             "y": 0.4337349397590362,
                             "uniqueID": "509c3e4f-e333-49e0-94f4-0495906ae8fc",
                             "ioValues": [],
-                            "description": "Defines a Replicad code block.",
                             "codeVersion": 1,
                             "code": "//Inputs:[Shape, Number, distX, distY, distZ];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Move(Shape, distX * i, distY * i,distZ * i);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
                         },
@@ -1543,7 +1373,6 @@
                             "y": 0.5,
                             "uniqueID": "00ede5ae-e6e3-417e-8b87-327b41bc9ef1",
                             "ioValues": [],
-                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                             "type": "number"
                         },
                         {
@@ -1553,7 +1382,6 @@
                             "y": 0.6174698795180722,
                             "uniqueID": "088d70d7-54e7-4366-b87c-a56ada4b6b61",
                             "ioValues": [],
-                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                             "type": "number"
                         },
                         {
@@ -1563,7 +1391,6 @@
                             "y": 0.7650602409638555,
                             "uniqueID": "f4e46901-9cc9-43a3-b999-537589c233c8",
                             "ioValues": [],
-                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                             "type": "number"
                         }
                     ],
