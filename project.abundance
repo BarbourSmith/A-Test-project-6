@@ -535,7 +535,8 @@
       "ioValues": [
         {
           "name": "Tool Size",
-          "ioValue": 6.35
+          "ioValue": 2,
+          "currentEquation": "2"
         },
         {
           "name": "Passes",
