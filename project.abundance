@@ -529,13 +529,14 @@
     {
       "atomType": "Gcode",
       "name": "Gcode",
-      "x": 0.6461640211640212,
-      "y": 0.8161559888579387,
+      "x": 0.6481481481481481,
+      "y": 0.8050139275766017,
       "uniqueID": "27c29402-254b-433d-b3e4-31d5a6a2640b",
       "ioValues": [
         {
           "name": "Tool Size",
-          "ioValue": 0.25
+          "ioValue": 6.35,
+          "currentEquation": "6.35"
         },
         {
           "name": "Passes",
@@ -2648,7 +2649,7 @@
       "ap2ID": "38a0fc25-61d5-4003-9b64-3388836bb20e"
     }
   ],
-  "unitsKey": "Inches",
+  "unitsKey": "MM",
   "fileTypeVersion": 1,
   "compiledBom": [],
   "filetypeVersion": 1
