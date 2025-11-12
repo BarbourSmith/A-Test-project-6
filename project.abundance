@@ -487,7 +487,7 @@
     {
       "atomType": "Extrude",
       "name": "Extrude",
-      "x": 0.4801587301587301,
+      "x": 0.47684809098294073,
       "y": 0.30362116991643456,
       "uniqueID": "d0b60086-8cc1-47de-a1d5-b3d7072433a2",
       "ioValues": [
@@ -535,13 +535,11 @@
       "ioValues": [
         {
           "name": "Tool Size",
-          "ioValue": 6,
-          "currentEquation": "6"
+          "ioValue": 6
         },
         {
           "name": "Passes",
-          "ioValue": 2,
-          "currentEquation": "2"
+          "ioValue": 2
         },
         {
           "name": "Speed",
@@ -549,8 +547,7 @@
         },
         {
           "name": "Cut Through",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "Part Name",
