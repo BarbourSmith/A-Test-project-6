@@ -70,8 +70,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.20568783068783067,
-      "y": 0.1615598885793872,
+      "x": 0.2043650793650794,
+      "y": 0.17548746518105848,
       "uniqueID": "c07e89b2-5597-4189-99ff-5c42aca3588d",
       "ioValues": [
         {
@@ -84,7 +84,8 @@
         },
         {
           "name": "zDist",
-          "ioValue": 5
+          "ioValue": 0,
+          "currentEquation": "0"
         }
       ]
     },
@@ -114,7 +115,8 @@
         },
         {
           "name": "Cut Through",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "Part Name",
