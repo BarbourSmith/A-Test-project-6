@@ -228,6 +228,34 @@
       "partName": "Test Part"
     },
     {
+      "atomType": "Circle",
+      "x": 0.7546296296296297,
+      "y": 0.520891364902507,
+      "uniqueID": "id-438",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.8546296296296296,
+      "y": 0.520891364902507,
+      "uniqueID": "id-441",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
       "atomType": "Molecule",
       "x": 0.24801587301587302,
       "y": 0.9192200557103064,
@@ -503,34 +531,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Circle",
-      "x": 0.7546296296296297,
-      "y": 0.520891364902507,
-      "uniqueID": "id-438",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 10
-        }
-      ]
-    },
-    {
-      "atomType": "Extrude",
-      "x": 0.8546296296296296,
-      "y": 0.520891364902507,
-      "uniqueID": "id-441",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "height",
-          "ioValue": 10
-        }
-      ]
     }
   ],
   "allConnectors": [
@@ -580,11 +580,6 @@
       "ap2ID": "27c29402-254b-433d-b3e4-31d5a6a2640b"
     },
     {
-      "ap2Name": "input",
-      "ap1ID": "id-222",
-      "ap2ID": "id-332"
-    },
-    {
       "ap2Name": "geometry",
       "ap1ID": "id-438",
       "ap2ID": "id-441"
@@ -593,6 +588,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-441",
       "ap2ID": 1746568598187
+    },
+    {
+      "ap2Name": "input",
+      "ap1ID": "id-222",
+      "ap2ID": "id-332"
     }
   ],
   "unitsKey": "MM",
