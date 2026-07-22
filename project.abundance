@@ -26,13 +26,11 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         },
         {
           "name": "y length",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         }
       ]
     },
@@ -64,8 +62,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 9,
-          "currentEquation": "9"
+          "ioValue": 9
         },
         {
           "name": "yDist",
@@ -73,8 +70,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         }
       ]
     },
@@ -172,8 +168,8 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.7929894179894179,
-      "y": 0.5766016713091923,
+      "x": 0.7962962962962963,
+      "y": 0.5710306406685237,
       "uniqueID": "id-543",
       "name": "Extract Thing1, Thing2, Thing3, Circle, Square, Thing4, Thing5, Thing12, Thing22, Thing32, The Keeout, keepout, Untagged",
       "ioValues": [
@@ -232,8 +228,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 8,
-          "currentEquation": "8"
+          "ioValue": 8
         },
         {
           "name": "zDist",
@@ -265,8 +260,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 4,
-          "currentEquation": "4"
+          "ioValue": 4
         }
       ]
     },
@@ -282,8 +276,7 @@
         },
         {
           "name": "height",
-          "ioValue": 5,
-          "currentEquation": "5"
+          "ioValue": 5
         }
       ]
     },
@@ -307,8 +300,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 6,
-          "currentEquation": "6"
+          "ioValue": 6
         }
       ]
     },
@@ -367,6 +359,70 @@
       ],
       "tags": [
         "Thing1"
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.6051587301587301,
+      "y": 0.46239554317548753,
+      "uniqueID": "id-675",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 20
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.6871693121693122,
+      "y": 0.5181058495821727,
+      "uniqueID": "id-703",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 40
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Tag",
+      "x": 0.46759259259259256,
+      "y": 0.5264623955431754,
+      "uniqueID": "id-776",
+      "name": "The Keeout",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tags": [
+        "The Keeout"
       ]
     },
     {
@@ -649,8 +705,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 20,
-              "currentEquation": "20"
+              "ioValue": 20
             },
             {
               "name": "yDist",
@@ -674,8 +729,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 50,
-              "currentEquation": "50"
+              "ioValue": 50
             },
             {
               "name": "yDist",
@@ -699,8 +753,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 30,
-              "currentEquation": "30"
+              "ioValue": 30
             },
             {
               "name": "yDist",
@@ -724,8 +777,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 40,
-              "currentEquation": "40"
+              "ioValue": 40
             },
             {
               "name": "yDist",
@@ -841,57 +893,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Move",
-      "x": 0.6051587301587301,
-      "y": 0.46239554317548753,
-      "uniqueID": "id-675",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": 0,
-          "currentEquation": "0"
-        },
-        {
-          "name": "yDist",
-          "ioValue": 20,
-          "currentEquation": "20"
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.6871693121693122,
-      "y": 0.5181058495821727,
-      "uniqueID": "id-703",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
-          "ioValue": 40,
-          "currentEquation": "40"
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
     },
     {
       "atomType": "Molecule",
@@ -1361,22 +1362,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Tag",
-      "x": 0.46759259259259256,
-      "y": 0.5264623955431754,
-      "uniqueID": "id-776",
-      "name": "The Keeout",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "tags": [
-        "The Keeout"
-      ]
     }
   ],
   "allConnectors": [
@@ -1471,11 +1456,6 @@
       "ap2ID": "id-585"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-588",
-      "ap2ID": "id-675"
-    },
-    {
       "ap2Name": "Shape 5",
       "ap1ID": "id-675",
       "ap2ID": "id-535"
@@ -1486,14 +1466,19 @@
       "ap2ID": "id-535"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-681",
-      "ap2ID": "id-703"
-    },
-    {
       "ap2Name": "Shape 4",
       "ap1ID": "id-776",
       "ap2ID": "id-535"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-588",
+      "ap2ID": "id-675"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-681",
+      "ap2ID": "id-703"
     }
   ],
   "unitsKey": "MM",
