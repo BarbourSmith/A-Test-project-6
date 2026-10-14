@@ -1415,8 +1415,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 50,
-              "currentEquation": "50"
+              "ioValue": 50
             }
           ]
         },
@@ -1432,15 +1431,14 @@
             },
             {
               "name": "height",
-              "ioValue": 3,
-              "currentEquation": "3"
+              "ioValue": 3
             }
           ]
         },
         {
           "atomType": "Gcode",
-          "x": 0.5,
-          "y": 0.6,
+          "x": 0.6,
+          "y": 0.7,
           "uniqueID": "id-998",
           "ioValues": [
             {
@@ -1453,8 +1451,7 @@
             },
             {
               "name": "Passes",
-              "ioValue": 10,
-              "currentEquation": "10"
+              "ioValue": 10
             },
             {
               "name": "Speed",
@@ -1466,8 +1463,8 @@
             },
             {
               "name": "Part Name",
-              "ioValue": "50 mm circle2",
-              "currentEquation": "50 mm circle2"
+              "ioValue": "50 mm circle",
+              "currentEquation": "50 mm circle"
             }
           ],
           "partName": "Test Cut",
@@ -1479,6 +1476,11 @@
           "ap2Name": "geometry",
           "ap1ID": "id-991",
           "ap2ID": "id-994"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-994",
+          "ap2ID": "id-989"
         },
         {
           "ap2Name": "geometry",
