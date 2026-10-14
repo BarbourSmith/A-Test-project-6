@@ -2,7 +2,7 @@
 
 # A-Test-project-6
 
-![](/project.svg)
+![](/project.png)
 
 
 
