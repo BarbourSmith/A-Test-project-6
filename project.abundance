@@ -1452,11 +1452,12 @@
             },
             {
               "name": "Passes",
-              "ioValue": 10
+              "ioValue": 12
             },
             {
               "name": "Speed",
-              "ioValue": 1500
+              "ioValue": 1500,
+              "currentEquation": "1500"
             },
             {
               "name": "Cut Through",
@@ -1464,8 +1465,8 @@
             },
             {
               "name": "Part Name",
-              "ioValue": "50 mm circle ramp down",
-              "currentEquation": "50 mm circle ramp down"
+              "ioValue": "50 mm circle 14 depth 12 passes",
+              "currentEquation": "50 mm circle 14 depth 12 passes"
             }
           ],
           "partName": "Test Cut",
