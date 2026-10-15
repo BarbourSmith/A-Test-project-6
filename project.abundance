@@ -1463,8 +1463,8 @@
             },
             {
               "name": "Part Name",
-              "ioValue": "50 mm circle",
-              "currentEquation": "50 mm circle"
+              "ioValue": "50 mm circle ramp down",
+              "currentEquation": "50 mm circle ramp down"
             }
           ],
           "partName": "Test Cut",
