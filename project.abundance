@@ -1431,7 +1431,8 @@
             },
             {
               "name": "height",
-              "ioValue": 3
+              "ioValue": 12,
+              "currentEquation": "12"
             }
           ]
         },
@@ -1459,7 +1460,7 @@
             },
             {
               "name": "Cut Through",
-              "ioValue": 0
+              "ioValue": 2
             },
             {
               "name": "Part Name",
